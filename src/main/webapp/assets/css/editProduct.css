@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    background-color: #f1f1f1;
+    width: 100%;
+
+}
+
+.modal-header {
+    background-color: #615E3F;
+}
+
+.modal-header p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.modal-body .modal-label {
+    font-size: 18px;
+}
+
+.modal-body .modal-input {
+    width: 332px;
+    height: 35px;
+    margin-left: 105px;
+    padding: 10px;
+}
+
+.modal-body .modal-input1 {
+    width: 332px;
+    height: 35px;
+    margin-left: 82px;
+    padding: 10px;
+}
+
+.modal-body .modal-input2 {
+    width: 332px;
+    height: 35px;
+    margin-left: 51px;
+    padding: 10px;
+
+}
+
+.modal-body .modal-input3 {
+    width: 332px;
+    height: 35px;
+    margin-left: 53px;
+    padding: 10px;
+
+}
+
+.modal-body .modal-input4 {
+    width: 332px;
+    height: 35px;
+    margin-left: 18px;
+    padding: 10px;
+
+}
+
+.modal-body .modal-input5 {
+    width: 332px;
+    height: 35px;
+    padding: 10px;
+
+}
+
+.modal-body .modal-textarea {
+    margin-left: 41px;
+    padding: 10px;
+}
+
+.modal-body .modal-textarea1 {
+    margin-left: 93px;
+    padding: 10px;
+}
+
+.row1 .row1_col1,
+.row1 .row1_col2,
+.row2,
+.row2 .row2_col2,
+.row3,
+.row3 .row3_col2,
+.row4 {
+    margin-top: 30px;
+}
+
+.modal-option {
+    width: 150px;
+    height: 30px;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+.modal-footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.modal-footer input {
+    width: 90px;
+    height: 35px;
+    margin-left: 571px;
+    font-size: 17px;
+    background-color: #615E3F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+} 
+
+.modal-footer input:hover {
+    background-color: #615E3F;
+}
+
+.css-label-img {
+    display: block;
+    width: 130px;
+    background: #615E3F;
+    color: #fff;
+    padding: 12px;
+    float: left;
+    margin: 10px 40px 0 0;
+    border: 5px;
+    cursor: pointer;
+}
